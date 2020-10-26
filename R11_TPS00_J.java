@@ -1,7 +1,7 @@
 // Rule 11. Thread Pools (TPS)
 // TPS00-J. Use thread pools to enable graceful degradation of service during traffic bursts
 
-// Noncompliant Code Example (Thread-Per-Message)
+// Compliant Solution
 
 class Helper {
   public void handle(Socket socket) {
